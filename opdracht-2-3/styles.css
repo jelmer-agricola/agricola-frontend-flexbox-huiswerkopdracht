@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #F2F3D9;
+    color: #030027;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+
+}
+.content-element{
+    background-color: #C16E70 ;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    min-height: 350px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-basis: 280px;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 0;
+
+}
+.all-text{
+    padding: 40px;
+}
+
+/* Opdracht 3 */
+
+.navigation{
+    background-color: #030027;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+
+
+}
+
+.analytica{
+    text-transform: uppercase;
+}
+
+.horizontal-list2 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+
